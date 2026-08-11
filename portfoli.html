@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="sl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <title>Portfoli KAOS</title>
+    <link rel="stylesheet" href="./kaos_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8be4bf07c9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ewv4hfx.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid px-4">
+        <a class="navbar-brand" href="kaos.html">
+          <img src="img/nahranisvojkaos2.svg" alt="KAOS" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="nav-links">
+            <a href="portfoli.html" class="active">Portfoli</a>
+            <a href="o-meni.html">O meni</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="section position-relative overflow-hidden">
+        <div class="marquee-wrapper">
+          <div class="marquee-track">
+            <span style="font-size: 60rem;">PORTFOLIO</span>
+            <span style="font-size: 60rem;">PORTFOLIO</span>
+          </div>
+        </div>
+        <div class="container-fluid px-4 px-md-5 position-relative" style="z-index: 1;">
+          <div class="row mt-5">
+            <div class="col-12 col-md-8 mt-5">
+              <h1 class="naslov">PORTFOLI</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Grafika -->
+      <section class="port-sec position-relative overflow-hidden">
+        <div class="marquee-wrapper marquee-reverse">
+          <div class="marquee-track">
+            <span style="font-size: 40rem; color: #7ec449;">GRAFIKA</span>
+            <span style="font-size: 40rem; color: #7ec449;">GRAFIKA</span>
+          </div>
+        </div>
+        <div class="container-fluid px-4 px-md-5 position-relative" style="z-index: 1;">
+          <div class="d-flex justify-content-between align-items-center mb-5">
+            <h2 class="text-dark m-0 hero-highlight">Grafika</h2>
+            <div class="d-flex gap-3">
+              <button class="swiper-btn prev-btn">←</button>
+              <button class="swiper-btn next-btn">→</button>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid px-4 px-md-5">
+          <div class="swiper portfolio-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide portfolio-slide">
+                <div class="portfolio-card" style="background-image: url('img/reload_card.webp');">
+                  <div class="portfolio-desc">
+                    <h3>Izdelaj svojo igro</h3>
+                    <p>Digitalno oglaševanje za Reload Akademijo.</p>
+                    <button class="btn portfolio-more" type="button" data-project="reload">Poglej več →</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide portfolio-slide">
+                <div class="portfolio-card" style="background-image: url('img/kkvu_card.webp');">
+                  <div class="portfolio-desc">
+                    <h3>KKVU</h3>
+                    <p>Celostna grafična podoba KKVU.</p>
+                    <button class="btn portfolio-more" type="button" data-project="kkvu">Poglej več →</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide portfolio-slide">
+                <div class="portfolio-card" style="background-image: url('img/proizvodnja_card.webp');">
+                  <div class="portfolio-desc">
+                    <h3>Proizvodnja</h3>
+                    <p>Vizualni projekt v sodelovanju z AGRFT.</p>
+                    <button class="btn portfolio-more" type="button" data-project="proizvodnja">Poglej več →</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide portfolio-slide">
+                <div class="portfolio-card" style="background-image: url('img/bled_card.webp');">
+                  <div class="portfolio-desc">
+                    <h3>Bled</h3>
+                    <p>Vizualni projekt v sodelovanju z AGRFT.</p>
+                    <button class="btn portfolio-more" type="button" data-project="bled">Poglej več →</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide portfolio-slide">
+                <div class="portfolio-card" style="background-image: url('img/rozanja_card.webp');">
+                  <div class="portfolio-desc">
+                    <h3>Rozanja</h3>
+                    <p>Celostna grafična podoba Rozanja.</p>
+                    <button class="btn portfolio-more" type="button" data-project="rozanja">Poglej več →</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide portfolio-slide">
+                <div class="portfolio-card" style="background-image: url('img/ilustracija_card.webp');">
+                  <div class="portfolio-desc">
+                    <h3>Odvisnost</h3>
+                    <p>Ilustrativni plakati o odvisnosti.</p>
+                    <button class="btn portfolio-more" type="button" data-project="ilustracija">Poglej več →</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Fotografija -->
+      <section class="port-sec position-relative overflow-hidden">
+        <div class="marquee-wrapper">
+          <div class="marquee-track">
+            <span style="font-size: 40rem; color: #7ec449;">FOTOGRAFIJA</span>
+            <span style="font-size: 40rem; color: #7ec449;">FOTOGRAFIJA</span>
+          </div>
+        </div>
+        <div class="container-fluid px-4 px-md-5 position-relative" style="z-index: 1;">
+          <div class="d-flex justify-content-between align-items-center mb-5">
+            <h2 class="text-dark m-0 hero-highlight">Fotografija</h2>
+            <div class="d-flex gap-3">
+              <button class="swiper-btn prev-btn">←</button>
+              <button class="swiper-btn next-btn">→</button>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid px-4 px-md-5">
+          <div class="swiper portfolio-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide portfolio-slide">
+                <div class="portfolio-card" style="background-image: url('img/abraham_card.webp');">
+                  <div class="portfolio-desc">
+                    <h3>Abraham</h3>
+                    <p>Fotografiranje praznovanja 50. let.</p>
+                    <button class="btn portfolio-more" type="button" data-project="abraham">Poglej več →</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide portfolio-slide">
+                <div class="portfolio-card" style="background-image: url('img/akt_card.webp');">
+                  <div class="portfolio-desc">
+                    <h3>Akt</h3>
+                    <p>Serija fotografij akta v studiju.</p>
+                    <button class="btn portfolio-more" type="button" data-project="akt">Poglej več →</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide portfolio-slide">
+                <div class="portfolio-card" style="background-image: url('img/gozd_card.webp');">
+                  <div class="portfolio-desc">
+                    <h3>Gozd</h3>
+                    <p>Serija fotografij motiva v gozdu.</p>
+                    <button class="btn portfolio-more" type="button" data-project="gozd">Poglej več →</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide portfolio-slide">
+                <div class="portfolio-card" style="background-image: url('img/mostar_card.webp');">
+                  <div class="portfolio-desc">
+                    <h3>Mostar</h3>
+                    <p>Serija fotografij Mostar.</p>
+                    <button class="btn portfolio-more" type="button" data-project="mostar">Poglej več →</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide portfolio-slide">
+                <div class="portfolio-card" style="background-image: url('img/italija_card.webp');">
+                  <div class="portfolio-desc">
+                    <h3>Italija</h3>
+                    <p>Serija fotografij Italije.</p>
+                    <button class="btn portfolio-more" type="button" data-project="italija">Poglej več →</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide portfolio-slide">
+                <div class="portfolio-card" style="background-image: url('img/paklenica_card.webp');">
+                  <div class="portfolio-desc">
+                    <h3>Paklenica</h3>
+                    <p>Serija fotografij Paklenice.</p>
+                    <button class="btn portfolio-more" type="button" data-project="paklenica">Poglej več →</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Project modal -->
+      <div class="project-modal" id="projectModal" aria-hidden="true">
+        <button class="project-modal__close" type="button" aria-label="Zapri">×</button>
+        <aside class="project-modal__info">
+          <p class="project-modal__label" id="modalCategory"></p>
+          <h2 class="project-modal__title" id="modalTitle"></h2>
+          <p class="project-modal__text" id="modalText"></p>
+          <div class="project-modal__meta" id="modalMeta"></div>
+        </aside>
+        <div class="project-modal__media" id="modalImages"></div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer__container">
+        <div class="footer__content text-center py-4">
+          <p class="footer__sub">Povežimo se!</p>
+          <div class="d-flex justify-content-center gap-4 mt-4">
+            <a href="https://www.instagram.com/nceglar123/" target="_blank" class="footer__icon" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/nuša-ceglar-9934a0379/" target="_blank" class="footer__icon" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+        <p class="footer__copy text-center mt-5">© 2026 Nuša Ceglar — KAOS</p>
+      </div>
+      <div class="footer__bg">
+        <video autoplay muted loop playsinline>
+          <source src="video/anim_hero.mp4" type="video/mp4">
+        </video>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="kaos_script.js"></script>
+  </body>
+</html>
